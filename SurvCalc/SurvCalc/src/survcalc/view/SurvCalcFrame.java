@@ -35,7 +35,7 @@ public class SurvCalcFrame extends javax.swing.JFrame {
         initMenu();
         
         viewPointList = new ViewPointList();
-        mainPanel = viewPointList;
+        mainPanel.add(viewPointList);
     }
     
     private void initMenu(){
